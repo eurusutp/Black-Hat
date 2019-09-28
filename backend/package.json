@@ -1,0 +1,24 @@
+{
+  "name": "electric-cars-opendata",
+  "version": "1.0.0",
+  "description": "A hackathon solution.",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eurusutp/Black-Hat.git"
+  },
+  "keywords": [
+    "opendata",
+    "electricvehicles",
+    "analysis"
+  ],
+  "author": "@xtealer, @luisbernal02, @drkmsk, @latticepolys",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eurusutp/Black-Hat/issues"
+  },
+  "homepage": "https://github.com/eurusutp/Black-Hat#readme"
+}
