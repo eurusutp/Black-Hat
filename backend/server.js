@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 
 app.use('/', (req, res, next) => {
-    res.send('ni pingaaaa');
+    res.send('It works!');
 });
 
 // starts server listening
