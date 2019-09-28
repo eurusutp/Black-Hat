@@ -22,11 +22,6 @@
   },
   "homepage": "https://github.com/eurusutp/Black-Hat#readme",
   "dependencies": {
-<<<<<<< HEAD
     "react-vis": "^1.11.7"
-=======
-    "express": "^4.17.1",
-    "nodemon": "^1.19.2"
->>>>>>> d3ed786cdb8994857308dae62294e93d5981ca82
   }
 }
