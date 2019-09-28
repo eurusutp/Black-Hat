@@ -116,12 +116,6 @@ section.blog-post-area {
     margin-top: 50px;
 }
 
-section.blog-post-area .big-image {
-    float: left;
-    width: 40%;
-    margin-left: 45px;
-}
-
 section.blog-post-area .big-text {
     float: right;
     width: 50%;
