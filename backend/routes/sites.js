@@ -6,8 +6,11 @@ const path = require('path');
 const router = express();
 // server routing for pages hosted
 
-// static folder
-router.use('/', express.static(path.resolve('..', 'frontend')));
+// static app
+router.use('/', express.static(path.resolve('..', 'static')));
+
+// react app
+router.use('/react', express.static(path.resolve('..', 'dynamic')));
 
 
 module.exports = router;
