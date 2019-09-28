@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 // server port where it's going to be listening
 const PORT = 3000;
-const sites = require('backend/routes/sites');
+const sites = require('./routes/sites');
 
 // static routes for index
 app.use('/', sites);
