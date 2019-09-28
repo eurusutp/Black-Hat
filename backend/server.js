@@ -4,10 +4,10 @@ const express = require('express');
 const app = express();
 // server port where it's going to be listening
 const PORT = 3000;
+const sites = require('backend/routes/sites');
 
-app.use('/', (req, res, next) => {
-    res.send('It works!');
-});
+// static routes for index
+app.use('/', sites);
 
 // starts server listening
 app.listen(PORT);
