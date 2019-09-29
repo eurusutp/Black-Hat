@@ -72,48 +72,66 @@ const data_model_emissions2 = [
     { x: "gs450H", y: 104 },
     { x: "es300H", y: 100 },
     { x: "panamera 4 E - HYBRID", y: 62 },
-]
+];
 
 class Viz extends React.Component {
     render() {
         return (
-            <div>
-                <XYPlot height={400} width={1000} xType="ordinal">
-                    <VerticalGridLines />
-                    <HorizontalGridLines />
-                    <XAxis />
-                    <YAxis />
-                    <LineSeries data={data_year_sold} />
-                </XYPlot>
-                <XYPlot height={400} width={1850} xType="ordinal">
-                    <VerticalGridLines />
-                    <HorizontalGridLines />
-                    <XAxis />
-                    <YAxis />
-                    <VerticalBarSeries data={data_model_total1} />
-                </XYPlot>
-                <XYPlot height={400} width={1850} xType="ordinal">
-                    <VerticalGridLines />
-                    <HorizontalGridLines />
-                    <XAxis />
-                    <YAxis />
-                    <VerticalBarSeries data={data_model_total2} />
-                </XYPlot>
-                <XYPlot height={400} width={1850} xType="ordinal">
-                    <VerticalGridLines />
-                    <HorizontalGridLines />
-                    <XAxis />
-                    <YAxis />
-                    <VerticalBarSeries data={data_model_emissions1} />
-                </XYPlot>
-                <XYPlot height={400} width={1850} xType="ordinal">
-                    <VerticalGridLines />
-                    <HorizontalGridLines />
-                    <XAxis />
-                    <YAxis />
-                    <VerticalBarSeries data={data_model_emissions2} />
-                </XYPlot>
-            </div >
+            <div className="w-100">
+                <div class="jumbotron bg-dark">
+                    <h1 class="display-3 text-light">Recopilacion de Datos</h1>
+                </div>
+                <div className="h-scroll mx-auto my-5 pt-5">
+                    <h1>Registro de Autos Electricos/Hibridos</h1>
+                    <XYPlot height={400} width={700} xType="ordinal">
+                        <VerticalGridLines />
+                        <HorizontalGridLines />
+                        <XAxis />
+                        <YAxis />
+                        <LineSeries data={data_year_sold} />
+                    </XYPlot>
+                </div>
+                <div className="h-scroll mx-auto my-5 pt-5">
+                    <h1>Total de Autos por Modelo Parte 1</h1>
+                    <XYPlot height={400} width={1800} xType="ordinal">
+                        <VerticalGridLines />
+                        <HorizontalGridLines />
+                        <XAxis />
+                        <YAxis />
+                        <VerticalBarSeries data={data_model_total1} />
+                    </XYPlot>
+                </div>
+                <div className="h-scroll mx-auto my-5 pt-5">
+                    <h1>Total de Autos por Modelo Parte 2</h1>
+                    <XYPlot height={400} width={2000} xType="ordinal">
+                        <VerticalGridLines />
+                        <HorizontalGridLines />
+                        <XAxis />
+                        <YAxis />
+                        <VerticalBarSeries data={data_model_total2} />
+                    </XYPlot>
+                </div>
+                <div className="h-scroll mx-auto my-5 pt-5">
+                    <h1>Emisiones de Carbono por Kilometro Recorrido 1 (g/CO2)</h1>
+                    <XYPlot height={400} width={1700} xType="ordinal">
+                        <VerticalGridLines />
+                        <HorizontalGridLines />
+                        <XAxis />
+                        <YAxis />
+                        <VerticalBarSeries data={data_model_emissions1} />
+                    </XYPlot>
+                </div>
+                <div className="h-scroll mx-auto my-5 pt-5">
+                    <h1>Emisiones de Carbono por Kilometro Recorrido 2 (g/CO2)</h1>
+                    <XYPlot height={400} width={1600} xType="ordinal">
+                        <VerticalGridLines />
+                        <HorizontalGridLines />
+                        <XAxis />
+                        <YAxis />
+                        <VerticalBarSeries data={data_model_emissions2} />
+                    </XYPlot>
+                </div >
+            </div>
         )
     }
 }

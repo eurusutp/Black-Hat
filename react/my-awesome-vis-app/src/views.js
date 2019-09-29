@@ -11,7 +11,6 @@ class Views extends Component {
                 <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet" />
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous" />
-                <link rel="stylesheet" href="css/styles.css" />
                 <div className="container">
                     <div className="fluid-row text-center">
                         <h1 className="display-4 py-5 mb-5">⚡Vehiculos Eléctricos en Panamá⚡</h1>

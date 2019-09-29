@@ -11,6 +11,7 @@ function App() {
       < Spacing />
       <Viz />
     </div>
+
   );
 }
 
