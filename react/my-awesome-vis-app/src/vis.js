@@ -77,11 +77,11 @@ const data_model_emissions2 = [
 class Viz extends React.Component {
     render() {
         return (
-            <div className="w-100">
+            <div className="w-100" style={{ margin: '100em 0 0 0' }}>
                 <div class="jumbotron bg-dark">
-                    <h1 class="display-3 text-light">Recopilacion de Datos</h1>
+                    <h1 class="display-3 text-light text-center">Recopilacion de Datos</h1>
                 </div>
-                <div className="h-scroll mx-auto my-5 pt-5">
+                <div className="h-scroll mx-auto my-5 pt-5" >
                     <h1>Registro de Autos Electricos/Hibridos</h1>
                     <XYPlot height={400} width={700} xType="ordinal">
                         <VerticalGridLines />
@@ -132,7 +132,7 @@ class Viz extends React.Component {
                     </XYPlot>
                 </div >
                 <div className="w-100 bg-dark py-2"><h3 className="text-light text-center">Made by: Luis Bernal, Adrian Carcache, Humberto De Leon y Jose Urriola @ Hackathon 2.0</h3></div>
-            </div>
+            </div >
         )
     }
 }
