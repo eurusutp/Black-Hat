@@ -27,7 +27,7 @@
 }
 
 .h-scroll {
-    width: 90%;
+    width: 80%;
     overflow-x: auto;
     white-space: nowrap;
 }
