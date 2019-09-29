@@ -134,7 +134,7 @@ class Views extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="col-1 fixed-top ml-2 mt-4">
+                <div className="col-1 navbar-right fixed-top mr-2 mt-4">
                     <a href="#"><img className="social-icon" src={require("./images/youtube-icon.png")} /></a>
                     <a href="#"><img className="social-icon" src={require("./images/facebook.png")} /></a>
                     <a href="#"><img className="social-icon" src={require("./images/instagram.png")} /></a>

@@ -112,7 +112,7 @@ class Viz extends React.Component {
                     </XYPlot>
                 </div>
                 <div className="h-scroll mx-auto my-5 pt-5">
-                    <h1>Emisiones de Carbono por Kilometro Recorrido 1 (g/CO2)</h1>
+                    <h1>Emisiones de Carbono por Kilometro Recorrido 1 (g/KM)</h1>
                     <XYPlot height={400} width={1700} xType="ordinal">
                         <VerticalGridLines />
                         <HorizontalGridLines />
@@ -122,7 +122,7 @@ class Viz extends React.Component {
                     </XYPlot>
                 </div>
                 <div className="h-scroll mx-auto my-5 pt-5">
-                    <h1>Emisiones de Carbono por Kilometro Recorrido 2 (g/CO2)</h1>
+                    <h1>Emisiones de Carbono por Kilometro Recorrido 2 (g/KM)</h1>
                     <XYPlot height={400} width={1600} xType="ordinal">
                         <VerticalGridLines />
                         <HorizontalGridLines />
@@ -131,6 +131,7 @@ class Viz extends React.Component {
                         <VerticalBarSeries data={data_model_emissions2} />
                     </XYPlot>
                 </div >
+                <div className="w-100 bg-dark py-2"><h3 className="text-light text-center">Made by: Luis Bernal, Adrian Carcache, Humberto De Leon y Jose Urriola @ Hackathon 2.0</h3></div>
             </div>
         )
     }
