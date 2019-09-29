@@ -68,7 +68,7 @@ class Views extends Component {
                             <div className="text-center">
                                 <img className="pt-2 pb-4 text-center w-75" src={require("./images/recharge.jpg")} />
                             </div>
-                            <h3 className="mb-3 mr-3">¿Merece tomar auto aulgundia-eléctrico?</h3>
+                            <h3 className="mb-3 mr-3">¿Vale la pena comprar un auto eléctrico?</h3>
                             <ol>
                                 <p>
                                 </p><li>Entre las ventajas del coche eléctrico podemos destacar que es ‘eco-friendly’. Es decir, es respetuoso
