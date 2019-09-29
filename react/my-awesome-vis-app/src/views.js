@@ -71,8 +71,7 @@ class Views extends Component {
                             <h3 className="mb-3 mr-3">¿Vale la pena comprar un auto eléctrico?</h3>
                             <ol>
                                 <p>
-                                </p><li>Entre las ventajas del coche eléctrico podemos destacar que es ‘eco-friendly’. Es decir, es respetuoso
-                                  con el entorno, ya que no emite gases CO₂ al circular ni hace tanto ruido como los
+                                </p><li>Podemos destacar que es ‘eco-friendly’. Es decir, es respetuoso con el entorno, ya que no emite gases CO₂ al circular ni hace tanto ruido como los
             vehículos tradicionales.</li>
                                 <p />
                                 <p>
