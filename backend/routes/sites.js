@@ -10,7 +10,7 @@ const router = express();
 router.use('/', express.static(path.resolve('..', 'static')));
 
 // react app
-router.use('/react', express.static(path.resolve('..', 'dynamic')));
+router.use('/react', express.static(path.resolve('..', 'react')));
 
 
 module.exports = router;
