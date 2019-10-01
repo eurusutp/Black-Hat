@@ -18,7 +18,7 @@ Reto DATOS ABIERTOS, vehiculos electricos.
 - **Email:** humberto0118@gmail.com | xtealer00@gmail.com
 
 **Jose Urriola:**
-- [Github](https://github.com/luisbernal02)
+- [Github](https://github.com/latticepolys)
 - **Email:** joserobertourriola@gmail.com
 
 ******
