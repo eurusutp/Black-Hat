@@ -1,27 +1,29 @@
 import React, { Component } from 'react';
+import SocialBar from './socialBar';
+
 
 class Views extends Component {
+    // variable and method used for enabling and disapearing items
+
     render() {
+        this.socialBarEnabled = true;
+        this.toggle = () => {
+            this.socialBarEnabled = !this.socialBarEnabled;
+            console.log(this.socialBarEnabled);
+        };
         return (
             <div>
-                <meta charSet="UTF-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <title>Electric Cars</title>
-                <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet" />
-                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous" />
                 <div className="container">
                     <div className="fluid-row text-center">
-                        <h1 className="display-4 py-5 mb-5">⚡Vehiculos Eléctricos en Panamá⚡</h1>
-                        <img className="w-75" style={{ maxHeight: '28em' }} src={require("./images/batteries.gif")} />
+                        <h1 className="display-4 py-5 mb-5"><span role="img" aria-label="lightning">⚡</span>Vehiculos Eléctricos en Panamá<span role="img" aria-label="lightning">⚡</span></h1>
+                        <img className="w-75" style={{ maxHeight: '28em' }} src={require("./images/batteries.gif")} alt="batteries-gif" />
                         <div className="py-5" />
                         <div className="py-5" />
                     </div>
                     <div className="col-xl col-lg col-md fluid-row">
-                        <div className="col-lg col-xl my-5 text-center"><img className="w-75" src={require("./images/mercecharge.jpg")} />
+                        <div className="col-lg col-xl my-5 text-center"><img className="w-75" src={require("./images/mercecharge.jpg")} alt="mercedes-ev" />
                         </div>
-                        <div className="col">
+                        <div className="col-xl col-lg col-md col-sm-2 col-xs-2 ml-auto">
                             <h3 className="mb-3">Autos eléctricos circulando en Panamá</h3>
                             <p className="text-justify">Se estima que en Panamá circulan 200 vehículos, entre autos y autobuses,
                               totalmente
@@ -39,7 +41,7 @@ class Views extends Component {
                     </div>
                     <div className="row col-md col-sm col-xs pb-4">
                         <div className="col mt-5 text-center">
-                            <img style={{ maxWidth: 150 }} src={require("./images/good-thumb.jpg")} alt />
+                            <img style={{ maxWidth: 150 }} src={require("./images/good-thumb.jpg")} alt="good-thumb" />
                             <h3 className="text-center text-success my-3">Ventajas</h3>
                             <ul className="list-group text-left">
                                 <li className="list-group-item">Aire más limpio</li>
@@ -50,7 +52,7 @@ class Views extends Component {
                             </ul>
                         </div>
                         <div className="col mt-5 text-center">
-                            <img style={{ maxHeight: 150 }} src={require("./images/bad-thumb.png")} />
+                            <img style={{ maxHeight: 150 }} src={require("./images/bad-thumb.png")} alt="bad-thumb" />
                             <h3 className="text-center text-danger my-3">Desventajas</h3>
                             <ul className="list-group text-left">
                                 <li className="list-group-item">Precio</li>
@@ -65,7 +67,7 @@ class Views extends Component {
                     <div className="row mx-3">
                         <div className="col text-justify">
                             <div className="text-center">
-                                <img className="pt-2 pb-4 text-center w-75" src={require("./images/recharge.jpg")} />
+                                <img className="pt-2 pb-4 text-center w-75" src={require("./images/recharge.jpg")} alt="ev-plug" />
                             </div>
                             <h3 className="mb-3 mr-3">¿Vale la pena comprar un auto eléctrico?</h3>
                             <ol>
@@ -99,10 +101,10 @@ class Views extends Component {
                         <div className="fluid-col-4 pt-1 mx-2 text-center">
                             <div className="py-4" />
                             <div className="py-4" />
-                            <img className="w-75" style={{ maxHeight: 227 }} src={require("./images/mercecharge.jpg")} />
-                            <div className="py-5" />
-                            <div className="py-4" />
-                            <img className="w-75" style={{ maxHeight: 220 }} src={require("./images/58.jpg")} />
+                            <img className="w-75" style={{ maxHeight: 227 }} src={require("./images/mercecharge.jpg")} alt="mercedes-ev" />
+                            <div className="py-xl-5 py-lg-5" />
+                            <div className="py-xl-4 py-lg-4" />
+                            <img className="w-75" style={{ maxHeight: 220 }} src={require("./images/58.jpg")} alt="ev-car-1" />
                         </div>
                         <div className="col pt-2 mx-3">
                             <hr />
@@ -134,11 +136,10 @@ class Views extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="col-1 fixed-top ml-2 mt-4">
-                    <a href="#"><img className="social-icon" src={require("./images/youtube-icon.png")} /></a>
-                    <a href="#"><img className="social-icon" src={require("./images/facebook.png")} /></a>
-                    <a href="#"><img className="social-icon" src={require("./images/instagram.png")} /></a>
-                    <a href="https://twitter.com/secdeenergia?lang=es"><img className="social-icon" src={require("./images/twitter.png")} /></a>
+                <div className="container-fluid fixed-top mt-5">
+                    <div className="col-auto mr-2">
+                        <SocialBar />
+                    </div>
                 </div>
             </div>
         )

@@ -77,9 +77,9 @@ const data_model_emissions2 = [
 class Viz extends React.Component {
     render() {
         return (
-            <div className="w-100" style={{ margin: '100em 0 0 0' }}>
-                <div class="jumbotron bg-dark">
-                    <h1 class="display-3 text-light text-center">Recopilacion de Datos</h1>
+            <div className="w-100 sp-top">
+                <div className="jumbotron bg-dark">
+                    <h1 className="display-3 text-light text-center">Recopilacion de Datos</h1>
                 </div>
                 <div className="h-scroll mx-auto my-5 pt-5" >
                     <h1>Registro de Autos Electricos/Hibridos</h1>
