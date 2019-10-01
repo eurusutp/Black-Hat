@@ -25,4 +25,4 @@ Reto DATOS ABIERTOS, vehiculos electricos.
 
 ### ¡Agradecimiento especial a todos los involucrados directa e indirectamente en la organizacion del evento "HACKATHON 2.0" 2019! ###
 <br><br><br>
-#### ATENTAMENTE <br><br><br> TEAM BLACK HAT####
+#### TEAM BLACK HAT
