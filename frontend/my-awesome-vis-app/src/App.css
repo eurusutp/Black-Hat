@@ -1,0 +1,63 @@
+/*on device width size css classes*/
+/*medium and bigger devices*/
+@media (min-width: 768px) {
+  .sp-top{
+    margin-top: 39em;
+  }
+
+ }
+ /*medium and smaller devices*/
+@media (max-width: 767.99px) {
+  .sp-top{
+    margin-top: 100em;
+  }
+  .social-icon {
+    height: 2.3em !important;
+    width: auto;
+  }
+ }
+
+ .collapsed {
+    display: none; /* hide it for small displays */
+}
+@media (min-width: 992px) {
+    .collapsed {
+        display: block;
+        margin-left: -25%; /* same width as sidebar */
+    }
+}
+
+/* ----- Regular CSS Classes ----- */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.social-icon {
+  height: 4em;
+  width: auto;
+}
+
+.h-scroll {
+    width: 80%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
