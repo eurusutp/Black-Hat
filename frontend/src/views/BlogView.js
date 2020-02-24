@@ -65,41 +65,33 @@ const BlogView = () => {
           alt="ev-plug"
         />
         <h3 className="mt-5 text-center">
-          ¿Vale la pena comprar un auto eléctrico?
+          ¿Vale la pena comprar un EV?
         </h3>
-        <ol>
-          <li className="font-weight-bold mt-5">
-            <p className="font-weight-normal">
-              Podemos destacar que es ‘eco-friendly’. Es decir, es respetuoso
-              con el entorno, ya que no emite gases CO₂ al circular ni hace
-              tanto ruido como los vehículos tradicionales.
-            </p>
+        <ol className="list-group mt-5 px-0">
+          <li className="text-justify">
+            Podemos destacar que es ‘eco-friendly’. Es decir, es respetuoso
+            con el entorno, ya que no emite gases CO₂ al circular ni hace
+            tanto ruido como los vehículos tradicionales.
           </li>
-          <li className="font-weight-bold">
-            <p className="font-weight-normal">
-              Usar la electricidad como ‘combustible’ hace que los
-              desplazamientos sean más baratos. El uso del coche eléctrico es
-              más rentable a la larga, ya que el km recorrido con electricidad
-              es más económico que hacerlo con diesel o gasolina.
-            </p>
+          <li className="mt-3 text-justify">
+            Usar la electricidad como ‘combustible’ hace que los
+            desplazamientos sean más baratos. El uso del coche eléctrico es
+            más rentable a la larga, ya que el km recorrido con electricidad
+            es más económico que hacerlo con diesel o gasolina.
           </li>
-          <li className="font-weight-bold">
-            <p className="font-weight-normal">
-              Los accidentes de transito se reducirán debido a que los vehículos
-              autónomos tienen un sistema inteligente que está programado con
-              sensores, rayos láser y GPS, para tomar las decisiones adecuadas
-              al momento de la conducción en las carreteras. Este sistema
-              permite relacionar, percibir situaciones en la vía e conectarse
-              con otros vehículos, lo que permite la toma de decisiones
-              adecuadas evitando los accidentes.
-            </p>
+          <li className="mt-3 text-justify">
+            Los accidentes de transito se reducirán debido a que los vehículos
+            autónomos tienen un sistema inteligente que está programado con
+            sensores, rayos láser y GPS, para tomar las decisiones adecuadas
+            al momento de la conducción en las carreteras. Este sistema
+            permite relacionar, percibir situaciones en la vía e conectarse
+            con otros vehículos, lo que permite la toma de decisiones
+            adecuadas evitando los accidentes.
           </li>
-          <li className="font-weight-bold">
-            <p className="font-weight-normal">
-              Menos ruidosos. Otra ventaja que ofrecen estos coches es una menor
-              contaminación acústica, que es uno de los problemas principales de
-              para las urbanizaciones.
-            </p>
+          <li className="mt-3 text-justify">
+            Menos ruidosos. Otra ventaja que ofrecen estos coches es una menor
+            contaminación acústica, que es uno de los problemas principales de
+            para las urbanizaciones.
           </li>
         </ol>
         <hr className="my-5" />

@@ -51,15 +51,23 @@
   color: #09d3ac;
 }
 
-.social-icon {
-  height: 4em;
-  width: auto;
-}
-
 .h-scroll {
   width: 80%;
   overflow-x: auto;
   white-space: nowrap;
+}
+
+li::marker {
+  font-weight: 700;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+.social-icon {
+  height: 4em;
+  width: auto;
 }
 
 .carousel-slide > image {
