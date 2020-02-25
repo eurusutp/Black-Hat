@@ -4,9 +4,10 @@ const BlogView = () => {
   return (
     <div className="row flex-row justify-content-center mx-0">
       <div className="col-10 px-0">
-        <hr className="my-5" />
+        <hr className="mt-5" />
         <h3 className="text-center">Autos eléctricos circulando en Panamá</h3>
-        <p className="text-justify mt-5">
+        <hr />
+        <p className="text-justify">
           Se estima que en Panamá circulan 200 vehículos, entre autos y
           autobuses, totalmente eléctricos, y unos 1,400 autos híbridos,
           aquellos que operan con carga eléctrica y combustible. En el
@@ -60,14 +61,16 @@ const BlogView = () => {
           </div>
         </div>
         <img
-          className="mt-3 w-100"
+          className="my-4 w-100"
           src={require('../images/recharge.jpg')}
           alt="ev-plug"
         />
-        <h3 className="mt-5 text-center">
+        <hr />
+        <h3 className="text-center">
           ¿Vale la pena comprar un EV?
         </h3>
-        <ol className="list-group mt-5 px-0">
+        <hr />
+        <ol className="list-group mb-5 px-0">
           <li className="text-justify">
             Podemos destacar que es ‘eco-friendly’. Es decir, es respetuoso
             con el entorno, ya que no emite gases CO₂ al circular ni hace
@@ -94,12 +97,13 @@ const BlogView = () => {
             para las urbanizaciones.
           </li>
         </ol>
-        <hr className="my-5" />
+        <hr />
         <h2 className="text-center mb-0">
           Puntos a tomar en cuenta al momento de comprar EV's
         </h2>
+        <hr />
         <img
-          className="my-5 w-100"
+          className="my-4 w-100"
           src={require('../images/58.jpg')}
           alt="ev-car-1"
         />
