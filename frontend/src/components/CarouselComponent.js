@@ -2,7 +2,6 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 const CarouselComponent = ({ images }) => {
-  console.log(images);
 
   const slides = images.map(img => {
     return (
